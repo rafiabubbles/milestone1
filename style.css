@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.header{
+ background-image:url(./Assets/Hero-bg.png);
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height:700px;
+    width:1400;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color:#4E47FF;
+    font-weight: 900;
+    font-family:"inter", sans-serif;
+    font-size: 34px;
+}
+.navbutton button{
+    background-color: #4E47FF;
+    font-weight: 600;
+    font-family: "Railway", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+/* hero */
+.herocap {
+    font-size: 48px;
+    font-weight: 700;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+}
+.hero button{
+    background-color: #4E47FF;
+    font-weight: 600;
+    font-family: "Railway", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+/* sec 2 */
+.sec2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
