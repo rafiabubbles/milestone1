@@ -74,7 +74,7 @@ body {
     font-size: 24px;
     color: #7d7c92;
     font-family: "Railway", sans-serif;
-    font-weight: 400;;
+    font-weight: 400;
 }
 .sec2text button{
     background-color: #4E47FF;
@@ -95,4 +95,47 @@ body {
     border: none;
     border-radius: 40px;
 }
-/*  */
+/* sec3 */
+.sec3{
+    background: linear-gradient(to bottom, rgba(78, 71, 255, 0.05), rgba(111, 106, 247, 0.2));
+    height: 300px;
+    width: 1140px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 140px auto;
+}
+.sec3content{
+    margin: 50px 130px;
+    text-align: center;
+    padding-left: 70px;
+}
+.sec3h p{
+ font-size: 38px;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.sec31 .h3{
+    color:#4E47FF;
+    font-size: 80px;
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.sec31 p{
+    color:#7d7c92;
+    font-size: 20px;
+    font-family: "Railway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+.sec3p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
