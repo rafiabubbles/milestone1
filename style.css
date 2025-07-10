@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 800px;
 }
 .logo{
     color:#4E47FF;
@@ -36,7 +37,11 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
 }
+
 /* hero */
+.hero{
+ margin-top: 160px;
+}
 .herocap {
     font-size: 48px;
     font-weight: 700;
@@ -99,17 +104,23 @@ body {
 .sec3{
     background: linear-gradient(to bottom, rgba(78, 71, 255, 0.05), rgba(111, 106, 247, 0.2));
     height: 300px;
-    width: 1140px;
+    width: 1310px;
     align-items: center;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin: 140px auto;
+    margin: 150px;
 }
 .sec3content{
-    margin: 50px 130px;
-    text-align: center;
-    padding-left: 70px;
+    margin: 50px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec3h{
+margin-right: 30px;
+
 }
 .sec3h p{
  font-size: 38px;
@@ -117,6 +128,9 @@ body {
     font-family: "Railway", sans-serif;
     font-weight: bold;
     text-align: center;
+}
+.sec31{
+    margin-right: 150px;
 }
 .sec31 .h3{
     color:#4E47FF;
@@ -139,3 +153,173 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+/* sec4 */
+.sec4content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border:1px solid rgb(235, 230, 230);
+    border-radius: 10px;
+      /* gap:20px; */
+    padding: 30px;
+ 
+}
+.sec4h p{
+     font-size: 42px;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.sec4star{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-left: 0px;
+}
+.sec4h{
+    font-size:20px;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.sec4p{
+    font-size:18px;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+    margin-top: 0px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px; 
+}
+.reviewer img{
+    border: none;
+    border-radius: 50%;
+}
+.name{
+    color: #757575;
+    font-size:18px;
+    font-family: "Railway", sans-serif;
+    margin-bottom: 0px;
+}
+.date{
+    color: #B3B3B3;
+    font-size:18px;
+    font-family: "Railway", sans-serif;
+    margin-top: 0px;
+}
+/* sec5 */
+.sec5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.sec5content{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec5h{
+    color: #000000;
+    font-size: 50px;
+    font-family: "Railway", sans-serif;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.sec5p{
+     color: #756b6b;
+    font-size: 14px;
+    font-family: "Railway", sans-serif;
+   margin-top: 0px;
+}
+.sec5content button{
+     background-color: #4E47FF;
+    font-weight: 600;
+    font-family: "Railway", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.sec5 img{
+    height: 360px;
+    width: 840px;
+    border: none;
+    border-radius: 50px;
+}
+/* sec6 */
+.sec6{
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap:70px;
+margin: 160px;
+}
+.sec6content p{
+    color: #020101;
+    font-size: 97px;
+    font-family: "Railway", sans-serif;
+    font-weight:bold;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 100%; */
+    max-width: 500px;
+    height: 490px;
+  }
+
+  input[type="text"],
+  textarea {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 460px;
+    resize: none;
+   
+  }
+
+  input[type="text"] {
+    height: 60px;
+  }
+
+  textarea {
+    height: 188px;
+  }
+
+  #button{
+    font-family: open-sans,sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+  }
+   
