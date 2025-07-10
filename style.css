@@ -37,7 +37,9 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
 }
-
+.navbutton button:hover{
+    background-color: #261dcf;
+}
 /* hero */
 .hero{
  margin-top: 160px;
@@ -60,6 +62,9 @@ body {
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+}
+.hero button:hover{
+    background-color: #261dcf;
 }
 /* sec 2 */
 .sec2{
@@ -93,6 +98,9 @@ body {
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+}
+.sec2text button:hover{
+    background-color: #261dcf;
 }
 .sec2img img{
     height: 330px;
@@ -260,6 +268,9 @@ margin-right: 30px;
     padding: 10px 20px;
     border-radius: 10px;
 }
+.sec5content button:hover{
+    background-color: #261dcf;
+}
 .sec5 img{
     height: 360px;
     width: 840px;
@@ -321,5 +332,35 @@ form {
     border-radius: 5px;
     margin-top: 10px;
     width: 100%;
+  }
+  #button:hover{
+    background-color: #261dcf;
+  }
+  .footer{
+    height: 430px;
+    width: 100%;
+  }
+  .footcontent{
+    align-items: center;
+    text-align: center;
+    margin: 104px 455px;
+  }
+  .footcontent h1{
+    font-family: "inter",sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+  }
+  .footcontent p{
+     font-family: "inter",sans-serif;
+    font-size: 16px;
+    color: #75747c;
+    margin-top: 0px;
+  }
+  .footmenu a{
+    text-decoration: none;
+    color: #75747c;
+    margin-right: 20px;
   }
    
