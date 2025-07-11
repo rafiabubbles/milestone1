@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-
+ min-height: 100vh;
+  background: linear-gradient(180deg, #e0f7fa 0%, #ffffff 100%);
 }
 .header{
  background-image:url(../Assets/Hero-bg.png);
@@ -38,7 +39,7 @@ body {
     border-radius: 10px;
 }
 .navbutton button:hover{
-    background-color: #261dcf;
+    background-color: #fdf916;
 }
 /* hero */
 .hero{
@@ -64,7 +65,7 @@ body {
     border-radius: 10px;
 }
 .hero button:hover{
-    background-color: #261dcf;
+    background-color: #fdf916;
 }
 /* sec 2 */
 .sec2{
@@ -100,7 +101,7 @@ body {
     border-radius: 10px;
 }
 .sec2text button:hover{
-    background-color: #261dcf;
+    background-color: #fdf916;
 }
 .sec2img img{
     height: 330px;
@@ -109,6 +110,13 @@ body {
     border-radius: 40px;
 }
 /* sec3 */
+.sec3all{
+align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+     margin:15px auto;
+}
 .sec3{
     background: linear-gradient(to bottom, rgba(78, 71, 255, 0.05), rgba(111, 106, 247, 0.2));
     height: 300px;
@@ -116,20 +124,18 @@ body {
     align-items: center;
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    margin: 150px;
+    justify-content: center; 
+    border: none;
+    border-radius: 40px;
 }
 .sec3content{
-    margin: 50px 300px;
+    margin: 50px auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }
-.sec3h{
-margin-right: 30px;
 
-}
 .sec3h p{
  font-size: 38px;
     color: #252432;
@@ -138,7 +144,7 @@ margin-right: 30px;
     text-align: center;
 }
 .sec31{
-    margin-right: 150px;
+    margin-right: 180px;
 }
 .sec31 .h3{
     color:#4E47FF;
@@ -160,6 +166,7 @@ margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 145px;
 }
 /* sec4 */
 .sec4content{
@@ -269,7 +276,7 @@ margin-right: 30px;
     border-radius: 10px;
 }
 .sec5content button:hover{
-    background-color: #261dcf;
+    background-color: #fdf916;
 }
 .sec5 img{
     height: 360px;
@@ -300,17 +307,18 @@ form {
     max-width: 500px;
     height: 490px;
   }
-
+ label{
+     font-family: "inter", sans-serif;
+ }
   input[type="text"],
   textarea {
     padding: 15px 20px;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "inter", sans-serif;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 460px;
     resize: none;
-   
   }
 
   input[type="text"] {
@@ -319,10 +327,11 @@ form {
 
   textarea {
     height: 188px;
+    color:#7d7c92;
   }
 
   #button{
-    font-family: open-sans,sans-serif;
+    font-family:"inter",sans-serif;
     font-size: 16px;
     color: white;
     font-weight: bold;
@@ -334,7 +343,7 @@ form {
     width: 100%;
   }
   #button:hover{
-    background-color: #261dcf;
+    background-color: #fdf916;
   }
   .footer{
     height: 430px;
